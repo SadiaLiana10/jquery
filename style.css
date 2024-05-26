@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    word-wrap: wrap;
+}
+.container{
+    margin: auto;
+    width:1170px;
+}
+#test{
+    background-color: #ccc;
+    height:100vh;
+    position: relative;
+}
+#test .wrapper{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#test .wrapper button{
+    padding:10px;
+    margin:0 10px;
+    cursor: pointer;
+    background-color: #A1DD70;
+    border-radius: 8px;
+}
+
+#test .wrapper .box{
+    width:200px;
+    height:200px;
+    background-color: #97BE5A;
+    display: inline-block;
+    transform: translate(20%, 20%);
+}
+
+
+
+
